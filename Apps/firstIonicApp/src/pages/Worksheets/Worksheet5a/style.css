@@ -1,0 +1,24 @@
+.custom-background {
+    background-color: #111;
+    color: white;
+    text-align: left;
+  }
+  
+  .custom-card {
+    background-color: #222;
+    color: white;
+  }
+  
+  .styled-section {
+    color: orange;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .custom-placeholder {
+    color: gray;  /* Light gray text */
+    opacity: 0.6; /* Slightly faded effect */
+  }
+  
+  
