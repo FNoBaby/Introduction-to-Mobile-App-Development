@@ -21,7 +21,7 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>First Ionic App</IonTitle>
+          <IonTitle> Worksheets </IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
