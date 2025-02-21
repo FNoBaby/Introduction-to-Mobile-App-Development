@@ -13,7 +13,7 @@ import {
   IonCard,
   IonCardHeader,
   IonCardTitle,
-  IonCardContent,
+  IonCardSubtitle,
 } from "@ionic/react";
 import { useHistory } from "react-router-dom";
 import "./style.css";
@@ -32,36 +32,30 @@ const Worksheet5b: React.FC = () => {
 
         <IonGrid>
           <IonRow>
-            <IonCol size="12">
-              <IonCard className="custom-card red-text">
+            <IonCol size="12" sizeSm="4" sizeMd="4" sizeLg="4" sizeXl="4">
+              <IonCard className="custom-card">
                 <IonCardHeader>
                   <IonCardTitle>Column 1</IonCardTitle>
+                  <IonCardSubtitle color='danger'> This is a responsive column for <b>small, medium, and large screens.</b> </IonCardSubtitle>
                 </IonCardHeader>
-                <IonCardContent>
-                  This is a responsive column for <b>small, medium, and large screens.</b>
-                </IonCardContent>
               </IonCard>
             </IonCol>
 
-            <IonCol size="12">
+            <IonCol size="12" sizeSm="4" sizeMd="4" sizeLg="4" sizeXl="4">
               <IonCard className="custom-card">
                 <IonCardHeader>
                   <IonCardTitle>Column 2</IonCardTitle>
+                  <IonCardSubtitle> Another responsive column with different sizes. </IonCardSubtitle>
                 </IonCardHeader>
-                <IonCardContent>
-                  Another responsive column with different sizes.
-                </IonCardContent>
               </IonCard>
             </IonCol>
 
-            <IonCol size="12">
+            <IonCol size="12" sizeSm="4" sizeMd="4" sizeLg="4" sizeXl="4">
               <IonCard className="custom-card">
                 <IonCardHeader>
                   <IonCardTitle>Column 3</IonCardTitle>
+                  <IonCardSubtitle> This column adjusts based on the screen size. </IonCardSubtitle>
                 </IonCardHeader>
-                <IonCardContent>
-                  This column adjusts based on the screen size.
-                </IonCardContent>
               </IonCard>
             </IonCol>
           </IonRow>
