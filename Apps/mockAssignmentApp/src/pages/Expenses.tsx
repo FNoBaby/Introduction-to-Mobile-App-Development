@@ -25,18 +25,11 @@ const Expenses: React.FC = () => {
         {/* Add content here */}
         
       </IonContent>
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="expenses" href="/expenses">
-            <IonIcon icon={card} />
-            <IonLabel>Expenses</IonLabel>
-          </IonTabButton>
-
-          <IonTabButton tab="preferences" href="/preferences">
-            <IonIcon icon={settings} />
-            <IonLabel>Preferences</IonLabel>
-          </IonTabButton>
-        </IonTabBar>
+      <IonFooter>
+        
+      </IonFooter>
     </IonPage>
+
   );
 };
 
