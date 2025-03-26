@@ -1,5 +1,5 @@
 {
-  "name": "spotify-recreation",
+  "name": "CalculatorApp",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -14,6 +14,8 @@
     "@types/react-dom": "^18.0.6",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
+    "CalculatorApp": "file:",
+    "CounterApp": "file:",
     "history": "^4.9.0",
     "ionicons": "^7.0.0",
     "react": "^18.2.0",
@@ -21,7 +23,6 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
-    "spotify-recreation": "file:",
     "typescript": "^4.1.3",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.4",
