@@ -14,6 +14,11 @@ const Home: React.FC = () => {
     { name: 'Worksheet4g', path: '/Worksheets/Worksheet4g' },
     { name: 'Worksheet5a', path: '/Worksheets/Worksheet5a' },
     { name: 'Worksheet5b', path: '/Worksheets/Worksheet5b' },
+    { name: 'Worksheet6d', path: '/Worksheets/Worksheet6d' },
+    { name: 'Worksheet6e', path: '/Worksheets/Worksheet6e' },
+    { name: 'Worksheet6f', path: '/Worksheets/Worksheet6f' },
+    { name: 'Spotify', path: '/Spotify_Recreation' },
+
     // Add more screens as needed
   ];
 

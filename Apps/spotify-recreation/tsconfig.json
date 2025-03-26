@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "../spotify-recreation/src/pages/spotifyHomepage.tsx", "../spotify-recreation/src/pages/types.ts", "../spotify-recreation/src/pages/SpotifyLibrary.tsx"  ]
+  ]
 }

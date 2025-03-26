@@ -1,0 +1,50 @@
+.now-playing {
+  position: fixed;
+  bottom: 56px; /* Adjusted to account for tab bar height */
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.06);
+  border-top: 1px solid #f0f0f0;
+  z-index: 1001;  /* Ensure it stays above other content */
+}
+
+.song-info {
+  display: flex;
+  align-items: center;
+}
+
+.song-info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.song-info h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #2d2d2d;
+  font-weight: 600;
+}
+
+.song-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.controls ion-icon {
+  font-size: 24px;
+  color: #2d2d2d;
+  margin: 0 8px;
+}

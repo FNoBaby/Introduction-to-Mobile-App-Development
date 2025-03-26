@@ -1,0 +1,17 @@
+.destination-card {
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.destination-card ion-card-header {
+  background-color: #f4f4f4;
+}
+
+.destination-card ion-button {
+  margin: 1rem;
+}
+
+ion-content {
+  --background: #f8f8f8;
+}

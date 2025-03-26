@@ -12,6 +12,11 @@ import Worksheet4f from './pages/Worksheets/Worksheet4f/Worksheet4f';
 import Worksheet4g from './pages/Worksheets/Worksheet4g/Worksheet4g';
 import Worksheet5a from './pages/Worksheets/Worksheet5a/Worksheet5a';
 import Worksheet5b from './pages/Worksheets/Worksheet5b/Worksheet5b';
+import Worksheet6d from './pages/Worksheets/Worksheet6d/Worksheet6d';
+import Worksheet6e from './pages/Worksheets/Worksheet6e/Worksheet6e';
+import Worksheet6f from './pages/Worksheets/Worksheet6f/Worksheet6f';
+import SpotifyHomepage from '../../spotify-recreation/src/pages/spotifyHomepage';
+
 // ...import other screens as needed...
 
 import Home from './pages/Home';
@@ -52,6 +57,11 @@ const App: React.FC = () => (
         <Route path="/Worksheets/Worksheet4g" component={Worksheet4g} exact={true} />
         <Route path="/Worksheets/Worksheet5a" component={Worksheet5a} exact={true} />
         <Route path="/Worksheets/Worksheet5b" component={Worksheet5b} exact={true} />
+        <Route path="/Worksheets/Worksheet6d" component={Worksheet6d} exact={true} />
+        <Route path="/Worksheets/Worksheet6e" component={Worksheet6e} exact={true} />
+        <Route path="/Worksheets/Worksheet6f" component={Worksheet6f} exact={true} />
+        <Route exact path="/Spotify_Recreation" component={SpotifyHomepage} />
+
         {/* Add more routes as needed */}
       </IonRouterOutlet>
     </IonReactRouter>
